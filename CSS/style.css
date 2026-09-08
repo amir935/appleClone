@@ -11,46 +11,104 @@
   gap: 10px;
   justify-content: center;
   margin-top: 5px;
-  ;
 }
 
 .links-wrapper ul a {
-   text-decoration: none
+  text-decoration: none;
 }
 
 .links-wrapper ul a:hover {
-   color: #000
+  color: #000;
 }
 .second-hightlight-wrapper {
-	background-image: url("../images/home/iphone11-pro-bg.jpg");
-	height: 580px;
-	background-position: center;
-	background-repeat: no-repeat;
+  background-image: url("../images/home/iphone11-pro-bg.jpg");
+  height: 580px;
+  background-position: center;
+  background-repeat: no-repeat;
   background-size: cover;
-	text-align: center;
-	padding: 65px 20px;
-	color: #fff;
+  text-align: center;
+  padding: 65px 20px;
+  color: #fff;
 }
 .title-wraper {
-	font-weight: 600;
-	font-size: 56px;	
+  font-weight: 600;
+  font-size: 56px;
 }
 .description-wrapper {
-	font-size: 26px;
-	padding: 10px 0;
+  font-size: 26px;
+  padding: 10px 0;
 }
 .price-wrapper {
-	color: #86868b; 
-	font-size: 0.85em;
+  color: #86868b;
+  font-size: 0.85em;
 }
 
 /* Third Highlight Section */
 .third-highlight-wrapper {
-	background-image: url("../images/home/iphone11-bg.jpg");
-	height: 580px;
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
-	text-align: center;
-	padding: 65px 20px;
+  background-image: url("../images/home/iphone11-bg.jpg");
+  height: 580px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  padding: 65px 20px;
+}
+
+.fourth-highlight-wrapper .left-side-wrapper {
+  background-image: url("../images/home/watch-series-5.jpg");
+}
+.right-side-wrapper {
+  height: 580px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  width: 48.5%;
+  margin: 1% 1% 0% 0.5%;
+  padding-top: 54px;
+}
+.fourth-highlight-wrapper .right-side-wrapper {
+  background-image: url("../images/home/apple-card.jpg");
+}
+.description-wrapper {
+  /* max-width: 430px; */
+  max-width: 450px;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+.fifth-highlight-wrapper {
+  display: flex;
+  justify-content: space-between;
+  background: #fff;
+}
+
+.left-side-wrapper {
+  background-image: url("../images/home/apple-tv-background.jpg");
+  height: 580px;
+  background-position: center;
+  background-repeat: no-repeat;
+  text-align: center;
+  width: 48.5%;
+  margin: 1% 1% 0% 0.5%;
+  padding-top: 54px;
+}
+
+.logo-wrapper {
+  font-size: 40px;
+  font-weight: bold;
+}
+.tvshow-logo-wrapper {
+  padding: 180px 0 200px;
+}
+.watch-more-wrapper a {
+  text-decoration: none;
+  font-size: 0.85em;
+}
+.watch-more-wrapper a::after {
+  font-family: "Font Awesome 7 Free";
+  font-weight: 900;
+  content: "\f144";
+  padding-left: 15px;
+  color: #0000ee;
 }
