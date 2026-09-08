@@ -4,3 +4,13 @@
   box-sizing: border-box;
   font-family: Montserrat, sans-serif;
 }
+.section-2{
+  background-image: url(../images/home/iphone11-pro-bg.jpg);
+  /* background-position: center;
+  height: 580px; */
+}
+.section-3{
+  background-image: url(../images/home/iphone11-bg.jpg);
+  /* height: 580px;
+  background-position: center; */
+}
