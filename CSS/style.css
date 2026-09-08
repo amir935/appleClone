@@ -19,3 +19,15 @@ button .learn{
  /* .sliding-text {
   animation: slideLeft 8s linear infinite;
 } */
+  .sliding-text {
+  animation: slideLeft 8s linear infinite;
+}
+
+@keyframes slideLeft {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(100%);
+  }
+} 
