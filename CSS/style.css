@@ -17,6 +17,10 @@
 .links-wrapper ul a {
    text-decoration: none
 }
+
+.links-wrapper ul a:hover {
+   color: #000
+}
 .second-hightlight-wrapper {
 	background-image: url("../images/home/iphone11-pro-bg.jpg");
 	height: 580px;
