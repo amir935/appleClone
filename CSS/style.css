@@ -10,7 +10,6 @@
 }
 
 
-
 .links-wrapper ul {
   display: flex;
   list-style: none;
@@ -108,9 +107,6 @@
     transform: translateX(100%);
   }
 }  */
-=======
-}
-
 .links-wrapper ul a {
   text-decoration: none;
 }
@@ -188,4 +184,7 @@
 
 
 
+<<<<<<< HEAD
+>>>>>>> parent of fa9a517 (Merge pull request #11 from amir935/feature-yared)
+=======
 >>>>>>> parent of fa9a517 (Merge pull request #11 from amir935/feature-yared)
