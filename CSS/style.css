@@ -8,90 +8,15 @@
     width: 1.25rem;
     color:white;
 }
-
-
-.links-wrapper ul {
-  display: flex;
-  list-style: none;
-  gap: 10px;
-  justify-content: center;
-  margin-top: 5px;
+ .sliding-text {
+  animation: slideLeft 8s linear infinite;
 }
 
-.links-wrapper ul a {
-  text-decoration: none;
-}
-
-.links-wrapper ul a:hover {
-  color: #000;
-}
-.second-hightlight-wrapper {
-  background-image: url("../images/home/iphone11-pro-bg.jpg");
-  height: 580px;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  text-align: center;
-  padding: 65px 20px;
-  color: #fff;
-}
-.title-wraper {
-  font-weight: 600;
-  font-size: 56px;
-}
-.description-wrapper {
-  font-size: 26px;
-  padding: 10px 0;
-}
-.price-wrapper {
-  color: #86868b;
-  font-size: 0.85em;
-}
-
-/* Third Highlight Section */
-.third-highlight-wrapper {
-  background-image: url("../images/home/iphone11-bg.jpg");
-  height: 580px;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  text-align: center;
-  padding: 65px 20px;
-}
-
-
-.third_main_wrapper {
-  background-image: url(../images/home/iphone11-bg.jpg);
-  height: 580px;
-  background-position: center;
-  text-align: center;
-  background-repeat: no-repeat;
-/* border-right: 12px solid #fff; */
-  
-}
-
-
-
-
-
-/* Background image for section 4 left and right &*/
-.left_section_fourth {
-  background-image: url(../images/home/watch-series-5.jpg);
-  /* background-repeat: no-repeat; */
-  background-position: center;
-  height: 36.25rem;
-  background-size: cover;
- 
-}
-
-
-.Right_section {
-  background-image: url(../images/home/apple-card.jpg);
-  /* background-repeat: no-repeat; */
-  background-position: center;
-  background-size: cover;
-  height: 36.25rem;
-}
-
-
-
+@keyframes slideLeft {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(100%);
+  }
+} 
