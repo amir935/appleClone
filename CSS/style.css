@@ -4,6 +4,11 @@
   box-sizing: border-box;
   font-family: Montserrat, sans-serif;
 }
+.icon-link img{
+    width: 1.25rem;
+    color:white;
+}
+
 
 .links-wrapper ul {
   display: flex;
