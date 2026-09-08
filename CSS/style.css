@@ -8,18 +8,7 @@
     width: 1.25rem;
     color:white;
 }
-/* icon-link img {
-  width: 1.25rem;
-  color:white;
-} */
-/* 
-button .learn{
-    text-decoration: none;
-} */
- /* .sliding-text {
-  animation: slideLeft 8s linear infinite;
-} */
-  .sliding-text {
+ .sliding-text {
   animation: slideLeft 8s linear infinite;
 }
 
