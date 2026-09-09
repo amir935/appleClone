@@ -89,4 +89,32 @@
 }
 
 
+.baby {
+    /* background-image: url(../apple-responsive-staring-base-code/images/home/apple-tv-background.jpg); */
+    background-image: url(../images/home/apple-tv-background.jpg);
+    background-position: center;
+    height: 580px;
+}
+.Airpad {
+    background-image: url(../images/home/air-pods.jpg);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    height: 580px;
+    background-color: black;
+}
+
+.last-1 {
+    background-image: url(../images/home/macbook-pro.jpg);
+    height: 35.25rem;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    /* border: 2px solid greenyellow; */
+}
+.last-2 {
+    background-image: url(../images/home/new-ipad.jpg);
+    height: 35rem;
+    background-repeat: no-repeat;
+    background-position: bottom;
+  }
+
 
