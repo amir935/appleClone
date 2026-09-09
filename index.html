@@ -13,21 +13,72 @@
   <body>
     <div class="outer-wrapper">
        <Header>
-        <ul>
-          <li>Home</li>
-          <li>Products</li>
-          <li>Services</li>
-          <li>Contact</li>
+        <nav class="navbar     navbar-expand-lg navbar-dark bg-dark positon-relative">
+          <div
+        class="container d-flex justify-content-between"
+      >
+        <!-- Left: Apple logo -->
+        <a class="navbar-brand d-lg-block logo-center-mobile" href="#"
+          ><img src="./images/icons/logo.svg" alt="Apple icon"
+        /></a>
+        <!-- navbar-brand order-1 -->
+        <!-- Center: Collapsible nav links -->
+        <div class="collapse navbar-collapse justify-content-center" id="mainNav">
+          <ul class="navbar-nav gap-5">
+            <li class="nav-item"><a class="nav-link" href="#">Mac</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">iPhone</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">iPad</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Watch</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">TV</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Music</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Support</a></li>
+          </ul>
+        </div>
+
+        <!-- Right: Search & Cart always visible -->
+        <div class="d-flex align-items-center gap-5">
+          <!-- Toggle button for mobile -->
+          <button
+            class="navbar-toggler border-0"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#mainNav"
+          >
+            <span class="navbar-toggler-icon "></span>
+          </button>
+          </div>
+          <!-- Icons -->
+           <div class=" d-flex gap-5 ">
+          <a href="#" class="icon-link"
+            ><img src="./images/icons/search-icon.png" alt="search icon"
+          /></a>
+          <a href="#" class="icon-link"
+            ><img src="./images/icons/cart.png" alt="cart icon"
+          /></a>
+        </div>
+      </div>
+    </nav>
+<!--? MacBook Section -->
+    <section class=" container-fluid text-center overflow-hidden w-100 d-inline-block text-nowrap sliding-text">
+      
+      <div class="pt-4 fs-4">16-inch model</div>
+      <div class="display-2 pt-0 fw-bold">MacBook Pro</div>
+      <div class="display-5">The best for the brightest.</div>
+      <ul class="d-flex justify-content-center gap-3 list-unstyled ">
+      <li><a  href="#" class="text-decoration-none">Learn more <i class="fa-solid fa-chevron-right"></i></a></li>
+      <li><a href="#" class="text-decoration-none">Buy <i class="fa-solid fa-chevron-right"></i></a></li>
+      
         </ul>
+  <div class="macPro"><img src="./images/home/mac-laptop.jpg" class=" img-fluid mx-auto d-block"   alt="mac-book" ></div>
+      
+    </section>
        </Header>
 
 
 
 
 
-      <section class="bg-light text-center py-4">
-        <h1>Hello Group3</h1>
-      </section>
+     
 
 <section class="second-hightlight-wrapper">
       <div class="internal-wrapper">
